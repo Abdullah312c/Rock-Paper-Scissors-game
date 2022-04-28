@@ -1,0 +1,78 @@
+button {
+
+    height: 3rem;
+    width: 9.5rem;
+    border: 1px solid orangered;
+    color: orangered;
+    background-color: white;
+    transition: .9s ease;
+}
+
+.game {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+button:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.players {
+    display: flex;
+    justify-content: center;
+}
+
+.player {
+    margin-right: 2rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: rgba(255, 68, 0, 0.681);
+    font-size: 1.7rem;
+    margin-left: 4rem;
+}
+
+.player h1 {
+    margin-left: 5.5rem;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+}
+
+#matchResult {
+    display: flex;
+    justify-content: center;
+}
+
+.results {
+    margin-right: 4rem;
+}
+
+@media (max-width: 532px) {
+    h1 {
+        font-size: 1rem;
+    }
+
+    .players h1{
+        margin-left: 2.9rem;
+    }
+
+    button {
+        width: 6rem;
+        height: 2rem;
+    }
+
+    img {
+        width: 50%;
+        margin-left: 2.5rem;
+    }
+}
